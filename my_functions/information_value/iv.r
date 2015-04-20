@@ -1,6 +1,6 @@
 # Deciles function
 
-decile_new <- function(x) {
+decile <- function(x) {
   deciles <-vector(length=11)  
   deciles <- quantile(x,seq(0,1,0.1),na.rm=T)
   
@@ -25,7 +25,7 @@ iv <- function(df,target) {
     
     if(class(df[,x]) %in% c("numeric","integer")) {
       
-      x_deciles <- decile_new(df[,x]) 
+      x_deciles <- decile(df[,x]) 
       
       #Start counting
       

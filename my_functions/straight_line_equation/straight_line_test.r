@@ -5,4 +5,4 @@ X<-rnorm(2)
 Y<-0.33*X+2
 mat<-cbind(X,Y)
 mat
-straight_line(mat,4)
+straight_line(mat,x = 4)
