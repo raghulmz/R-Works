@@ -1,5 +1,5 @@
 
-source("~/Data_Science/R_stuff/my_functions/linear_regression/feature_scaling.r")
+source("../my_functions/linear_regression/feature_scaling.r")
 
 df<-read.csv(file = "~/Data_Science/Kaggle/titanic//data//train.csv")
 names(df)
