@@ -4,7 +4,7 @@ The `iv()` function calculates the information value of features in a data frame
 
 I would like to thank **Mr. Rajesh Jakhotia, B.E., PMP** whose article is the basis for this code.
 
-It is based on the article [Information Value Concept in Scorecard Development](https://www.linkedin.com/pulse/20140627161956-96945870-information-value) by **Rajesh Jakhotia, B.E., PMP**
+It is based on the article [Information Value Concept in Scorecard Development](https://www.linkedin.com/pulse/20140627161956-96945870-information-value) posted on LinkedIn by Mr. Jakhotia.
 
 The following assumptions and adjustments were made apart from those specified by the author
 
