@@ -34,7 +34,7 @@ raghulmz@thecomp <R>source("../my_functions/chi_square_test/chi_square_test.R")
 raghulmz@thecomp <R> file = "~/Data_Science/Kaggle/titanic//data//train.csv"
 raghulmz@thecomp <R> df<-read.csv(file)
 
-raghulmz@thecomp <R> df<-df[,c("Sex","Pclass","Survived")]#,"Embarked")]
+raghulmz@thecomp <R> df<-df[,c("Sex","Pclass","Survived")]
 raghulmz@thecomp <R> names(df)
 [1] "Sex"      "Pclass"   "Survived"
 
