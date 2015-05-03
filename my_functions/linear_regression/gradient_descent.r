@@ -2,7 +2,18 @@
 # Requires feature_scaling function
 
 #setwd("~/Data_Science//R_stuff//my_functions//linear_regression")
-source("../my_functions/linear_regression/feature_scaling.r")
+
+feature_scaling <- function(df, mean.normal=T) {
+  for (i in names(df)) {
+    max_v<-max(abs(df[,i]))
+    if (mean.normal) {
+      mean_v<-mean(df[,i])
+      df[,i]<-df[,i]-mean_v
+    }
+    df[,i]<-df[,i]/max_v
+  }
+  return(df)
+}
 
 gradient_descent <- function(df,target,alpha=0.0001,it,scaling=T) {
   J_out<-file(paste("J.dat",Sys.time()),"w")
