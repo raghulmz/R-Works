@@ -28,7 +28,7 @@ The following assumptions and adjustments were made apart from those specified b
 
 The data used in this example is the training data set from the **Kaggle** challenge [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
-```
+```R
 raghulmz@thecomp <R> source("./iv.r")
 raghulmz@thecomp <R> file = "~/Data_Science/Kaggle/titanic//data//train.csv"
 raghulmz@thecomp <R> df<-read.csv(file)

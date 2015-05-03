@@ -6,7 +6,7 @@
 ###Example
 
 
-```
+```R
 raghulmz@thecomp <R> source("./straight_line_equation.r")
 raghulmz@thecomp <R> X<-rnorm(2)
 raghulmz@thecomp <R> Y<-0.33*X+2

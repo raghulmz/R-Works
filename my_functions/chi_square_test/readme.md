@@ -25,7 +25,7 @@ http://en.wikipedia.org/wiki/Yates%27s_correction_for_continuity
 
 The data used in this example is the training data set from the **Kaggle** challenge [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
-```
+```R
 raghulmz@thecomp <R> setwd("~/Data_Science/R_stuff/Workspace/default/")
 raghulmz@thecomp <R>source("../my_functions/chi_square_test/chi_square_test.R")
 raghulmz@thecomp <R> file = "~/Data_Science/Kaggle/titanic//data//train.csv"
