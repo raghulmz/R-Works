@@ -44,23 +44,4 @@ Chi-squared test for independence
 Sex 	 DOF =  1 , 	 Chi Square =  261 	 p-value =  0 
 Pclass 	 DOF =  2 , 	 Chi Square =  101 	 p-value =  0 
 
-raghulmz@thecomp <R> X <- df[,which(names(df)!=target)]
-raghulmz@thecomp <R> Y <- df[,target]
-
-##Testing with inbuilt R functions
-
-raghulmz@thecomp <R> for (i in 1:length(X)) {
-+   print(chisq.test(X[[i]],Y))
-+ }
-
-	Pearson's Chi-squared test with Yates' continuity correction
-
-data:  X[[i]] and Y
-X-squared = 260, df = 1, p-value <2e-16
-
-
-	Pearson's Chi-squared test
-
-data:  X[[i]] and Y
-X-squared = 100, df = 2, p-value <2e-16
 ```
