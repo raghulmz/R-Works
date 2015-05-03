@@ -20,7 +20,7 @@ The following assumptions and adjustments were made apart from those specified b
 
 ```R
   > source("iv.r")
-```R
+```
 
 * Run `iv()` function with a data frame and a target
 
