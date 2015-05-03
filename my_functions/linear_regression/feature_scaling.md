@@ -17,7 +17,7 @@ The function `feature_scaling()` does the following transformation to the input 
 The data used in this example is the training data set from the **Kaggle** challenge [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
 
-```
+```R
 raghulmz@thecomp <R> source("../my_functions/linear_regression/feature_scaling.r")
 raghulmz@thecomp <R> 
 raghulmz@thecomp <R> df<-read.csv(file = "~/Data_Science/Kaggle/titanic//data//train.csv")
