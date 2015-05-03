@@ -2,7 +2,7 @@
 
 The `chi_sqaure_test` function can be used to test for independence of two categorical values.
 
-It is partly based on the article [Information Value Concept in Scorecard Development](http://stattrek.com/chi-square-test/independence.aspx) by **StatTrek**
+It is partly based on the article [Chi-Square Test for Independence](http://stattrek.com/chi-square-test/independence.aspx) by **StatTrek**
 
 This function also makes the Yates' Correction for Continuity
 
