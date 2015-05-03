@@ -24,9 +24,9 @@ The following assumptions and adjustments were made apart from those specified b
 
 * Run `iv()` function with a data frame and a target
 
- ```R
+```R
   >iv(dataFrame,Target)`
- ```
+```
 ### Example
 
 The data used in this example is the training data set from the **Kaggle** challenge [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
