@@ -13,12 +13,15 @@ http://en.wikipedia.org/wiki/Yates%27s_correction_for_continuity
 
 * Source the file `chi_sqaure_test` <br>
 
- `> source("chi_sqaure_test")`
+```R
+ > source("chi_sqaure_test")
+```
 
 * Run `chi_sqaure_test()` function with a data frame and a target
 
+```R
  `>chi_sqaure_test(dataFrame,Target)`
-
+```
 **Data Frame should contain only categorical values and be coerced into a factor**
 
 ### Example
